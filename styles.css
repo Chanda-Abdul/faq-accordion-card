@@ -31,8 +31,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 200%;
-  width: 100%;
+  min-height: 100vh;
 }
 
 .container {
@@ -63,20 +62,20 @@ body {
 .card-faq {
   width: 20.5rem;
   min-height: 33.5rem;
-  margin-top: 8.25rem;
+  margin-top: 6.5rem;
   margin-bottom: 5.3rem;
-  padding: 2rem 1.5rem 1.5rem;
+  padding: 4.25rem 1.5rem 1.5rem;
   background: #ffffff;
   box-shadow: 0px 3.125rem 3.125rem -1.25rem hsla(260, 74%, 27%, 0.497);
   border-radius: 1.5rem;
 }
+
 .content {
-  padding-top: 12.25rem;
+  padding-top: 2.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  min-height: 35.5rem;
+  justify-content: start;
 }
 h1 {
   color: var(--primary-text-very-dark-desaturated-blue);
@@ -109,6 +108,12 @@ ul {
   line-height: 1rem;
   margin: 1.25rem 0;
   color: var(--neutral-text-very-dark-grayish-blue);
+}
+
+.faq-question:hover,
+.active .faq-question:hover {
+  color: var(--primary-text-soft-red);
+  cursor: pointer;
 }
 .faq-answer {
   display: none;
@@ -170,10 +175,6 @@ hr {
 }
 
 @media (min-width: 48em) {
-  body {
-    width: 100vw;
-    height: 100vh;
-  }
 }
 @media (min-width: 90em) {
   .illustration span.image {
@@ -194,7 +195,6 @@ hr {
     width: 90px;
     left: 170px;
     top: 335px;
-
     position: absolute;
     z-index: 3;
   }
@@ -218,8 +218,11 @@ hr {
     height: 100%;
     padding-top: 0%;
     margin-left: 475px;
-    margin-right: 95px;
-    text-align: left;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   ul {

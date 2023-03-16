@@ -26,13 +26,13 @@ Your challenge is to build out this FAQ accordion card and get it looking as clo
 Users should be able to:
 
 - [x] View the optimal layout for the component depending on their device's screen size
-- [ ] See hover states for all interactive elements on the page
+- [x] See hover states for all interactive elements on the page
 - [x] Hide/Show the answer to a question when the question is clicked
 - [ ] **Bonus**: Complete the challenge without using JavaScript
 
 ### Links
 - Solution URL: [here](https://github.com/Chanda-Abdul/faq-accordion-card)
-- Live Site URL: [here]()
+- Live Site URL: [here](https://majestic-caramel-b55578.netlify.app/)
 
 
 ## My process
